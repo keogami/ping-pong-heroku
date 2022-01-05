@@ -1,0 +1,9 @@
+# https://devcenter.heroku.com/articles/heroku-yml-build-manifest
+# Officially unsupported, but works.
+# Unapologetically copied from, https://github.com/heroku/go-getting-started
+build:
+  languages:
+    - go
+
+run:
+  web: ping-pong-heroku
